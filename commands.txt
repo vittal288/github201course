@@ -51,6 +51,6 @@ it will pull the latest code but it will not merge automatically
 create a branch in deifferent repo 
 > git btanch remote_name branch_name
 
-adding some line to demonstrate how stashing works
+
 
 
