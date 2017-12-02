@@ -1,44 +1,54 @@
 create a branch:
-git branch branch_name
+> git branch branch_name
 
 delete a local/remote branch 
 (you should be on the same branch which are planned to delete)
-git branch -d branch_name
-git branch -D branch_name
+> git branch -d branch_name
+> git branch -D branch_name
 
 delete a remote branch:
-git push remote_name :branch_name
-git push remote_name <source_branch>:<destination_branch>
+> git push remote_name :branch_name
+> git push remote_name <source_branch>:<destination_branch>
 
 change the branch :
 
-git checkout branch_name
+> git checkout branch_name
 
 branch list from repo 
 
-git branch -r 
+> git branch -r 
 
 push code to repo 
 
-git push remote_name branch_name
+> git push remote_name branch_name
 
 pull code from repo 
 
-git pull remote_name branch_name
+> git pull remote_name branch_name
 
 add remote 
 
-git add remote <GIT REPO URL>
+> git add remote <GIT REPO URL>
 
 ### TAGS ####
-tags are used to release the code version basis like v1.0.0
+> tags are used to release the code version basis like v1.0.0
 
 create a tags
-git tag tag_name 
+> git tag tag_name 
 
 delete a tag from local 
-git tag -d tag_name
+> git tag -d tag_name
 
 delete a tag from repo 
-git push <remote_name> :<tag_name>
+> git push <remote_name> :<tag_name>
+
+## HEAD 
+The latest commit on each branch is called head(or alias to latest commit)
+
+FETCH
+it will pull the latest code but it will not merge automatically 
+
+create a branch in deifferent repo 
+> git btanch remote_name branch_name
+
 
