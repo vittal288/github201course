@@ -59,4 +59,5 @@ git stash
 git stash apply or git stash apply <id>
 git stash list 
 git stash pop (it will apply and removed from list or temporary location): git stash pop is recommended. 123
+git stash clear : clear all list 
 
