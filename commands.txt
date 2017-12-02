@@ -54,3 +54,9 @@ create a branch in deifferent repo
 adding some line to demonstrate how stashing
 
 
+## STASHING 
+git stash 
+git stash apply or git stash apply <id>
+git stash list 
+git stash pop (it will apply and removed from list or temporary location): git stash pop is recommended
+
