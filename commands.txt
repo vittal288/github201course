@@ -1,4 +1,4 @@
-create a branch:
+create a branches:
 > git branch branch_name
 
 delete a local/remote branch 
